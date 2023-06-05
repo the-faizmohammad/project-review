@@ -1,0 +1,138 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set font and background color for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#header-img {
+  height: 50px;
+}
+
+#nav-bar ul {
+  list-style-type: none;
+}
+
+#nav-bar ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Search bar styles */
+#new-search-bar {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#form {
+  margin-top: 10px;
+}
+
+#email {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#submit {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Section styles */
+section {
+  padding: 40px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+section h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+section p {
+  color: #666;
+  line-height: 1.5;
+}
+
+/* YouTube video section */
+#youtube-video {
+  text-align: center;
+}
+
+#video {
+  width: 100%;
+}
+
+/* Trombone sections */
+section div {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section div h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+section div ol {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+section div ol li {
+  margin-bottom: 5px;
+}
+
+section div button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer span {
+  display: block;
+  margin-top: 10px;
+}
